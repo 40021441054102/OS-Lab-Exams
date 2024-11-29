@@ -15,10 +15,10 @@ touch cpu_info.txt                                                            # 
 lscpu                                    # look for value of CPU max Hz       # - Step 3
 nano cpu_info.txt                        # and write value in it              # - Step 3
 mkdir Backup\ Directory                  # or mkdir 'Backup Directory'        # - Step 4
-cp cpu_info.txt Backup/copy_file.txt                                          # - Step 5
+cp cpu_info.txt Backup\ Directory/copy_file.txt                               # - Step 5
 nano cpu_info.txt                        # then write your name in the end    # - Step 6
 cat cpu_info.txt                                                              # - Step 7
-cat Backup/copy_file.txt                                                      # - Step 7
+cat Backup\ Directory/copy_file.txt                                           # - Step 7
 ```
 
 ## Q2 (Storage, Memory, Files) ++++

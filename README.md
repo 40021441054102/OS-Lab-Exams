@@ -1,6 +1,6 @@
 # OS-Lab-Exams
 Operating System Lab Exam Questions
-### Q1 (CPU, Files) +++
+### Q1 (CPU, Files) ++++
 1. First create a directory with name of ```OS Exam```, Attention that ```space character``` is required between ```OS``` and ```Exam```.
 2. In created directory, create a file named ```cpu_info.txt```.
 3. With related commands, show your system's CPU information, then look for item ```CPU max Hz``` and write down your cpu frequency inside ```cpu_info.txt``` file.
@@ -9,7 +9,7 @@ Operating System Lab Exam Questions
 6. In the main ```cpu_info.txt``` file write your name at the end of file then save it.
 7. Show contents of both main and copied files.
 
-### Q2 (Storage, Memory, Files) +++
+### Q2 (Storage, Memory, Files) ++++
 1. First create a directory with name of ```OS Exam```, Attention that ```space character``` is required between ```OS``` and ```Exam```.
 2. In created directory, create a file named ```storage_report.txt```.
 3. With related commands, show your system's Storage information in ```human readable mode```, then look for free storage available at ```Root Directory ('/')``` and write down inside ```storage_report.txt``` file.
@@ -24,7 +24,7 @@ Operating System Lab Exam Questions
 4. With related commands, establish a secure connection session from your system to that wrote down IP.
 5. In established secure connection session, show information and listener ports of your system.
 
-### Q4 (Network, Fun, Internet Required) +
+### Q4 (Network, Fun, Internet Required) ++
 1. Connect yoru system to the internet.
 2. With related command, show contents of web page with link of ```ascii.live/can-you-hear-me``` in your terminal.
 3. Also show contents of ```ascii.live/forrest```.
@@ -38,8 +38,18 @@ Operating System Lab Exam Questions
 5. With related command of converting domain to IP and vice versa, show IP of ```google.com```.
 6. Do step 4 for step 5 again.
 
-### Q6 (Files, Search, Root Directories)
+### Q6 (Files, Search, Root Directories) +++
 1. Create a directory with any name you like.
 2. Copy file with name of ```cpuinfo``` from you system's root directory path ```/proc/cpuinfo``` to your created directory.
 3. With related command, look for text ```MHz``` in copied ```cpuinfo``` file.
 4. Do step 3 but add related command that saves output of search result into a file named ```results.txt```.
+
+### Q7 (Zip, Unzip, Directories, Echo, Files) +++
+1. First create a directory named ```Backup```.
+2. Inside the directory, create two files: ```file1.txt``` and ```file2.txt```.
+3. Write your full name into ```file1.txt``` using the ```echo``` command and ```redirect the output to file```.
+4. Write your student id into ```file2.txt``` using the ```echo``` command and ```redirect the output to file```.
+5. Compress both files into zip file named ```archive.zip```.
+6. Delete ```file1.txt``` and ```file2.txt```.
+7. Extract the contents of ```archive.zip``` into created directory with name of ```Backup```.
+8. Show contents of both files.
